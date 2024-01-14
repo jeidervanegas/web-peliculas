@@ -18,7 +18,7 @@ export const SingleMovie = () => {
   let image = Poster === 'N/A' ? imageDefault : Poster
 
   return (
-    <div className=''>
+    <div className=' mb-10'>
       {!isLoading ?
         <section className=' w-11/12 md:w-2/4 m-auto pt-40 '>
           <article className='bg-gray-100 flex flex-col md:flex-row gap-6 p-3 rounded-lg min-h-[500px] '>
