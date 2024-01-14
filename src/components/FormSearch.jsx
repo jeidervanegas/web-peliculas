@@ -19,7 +19,7 @@ export const FormSearch = () => {
     }
 
   return (
-    <form className="py-10 w-2/4 m-auto " onSubmit={handleSubmit}>
+    <form className="py-10 w-11/12 md:w-2/4 m-auto " onSubmit={handleSubmit}>
       <div className="w-full flex flex-wrap">
         <input
             className="w-3/4 py-3 p-4 rounded-l-full" 
