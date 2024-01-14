@@ -30,7 +30,10 @@ export const FormSearch = () => {
         />
         <input 
           className="w-1/4 text-xs md:text-lg bg-blue-800 rounded-r-full uppercase font-bold text-white hover:cursor-pointer hover:bg-blue-900 transition-colors"
-          type="submit" />
+          type="submit" 
+          value='Buscar'
+          />
+          
       </div>
         {error && <p className="py-4 text-center text-white">{`No hay resultado para esta película '${title}'`}</p>}
     </form>
