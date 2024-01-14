@@ -7,7 +7,7 @@ export const DataContext = createContext();
 //creamos la función del proveedor
 export const DataProvider = ({children}) => {
     //creamos los estados que quevamos a usar 
-    const [query, setQuery] = useState('disney')
+    const [query, setQuery] = useState('movies')
     //usamos el hook para parametrizar el query
     const { isLoading, error, data } = useFetch(`&s=${query}`)
 
